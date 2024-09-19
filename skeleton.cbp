@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="RollladenSteuerung" />
+		<Option title="skeleton" />
 		<Option pch_mode="2" />
 		<Option compiler="avr-gcc" />
 		<Build>
@@ -51,7 +51,7 @@
 					<Add option="-DSYSCLK=CLK32M" />
 					<Add option="-DPLL=0" />
 					<Add option="-DCLOCK_CALIBRATION=122" />
-					<Add option="-DNODE_STRING=V2" />
+					<Add option="-DNODE_STRING=T1" />
 					<Add directory="./" />
 				</Compiler>
 				<Linker>
@@ -107,6 +107,7 @@
 		<Unit filename="../Secrets/secrets.h" />
 		<Unit filename="../communication/CRC_Calc.cpp" />
 		<Unit filename="../communication/CRC_Calc.h" />
+		<Unit filename="../communication/CmultiAddresses.h" />
 		<Unit filename="../communication/Communication.cpp" />
 		<Unit filename="../communication/Communication.h" />
 		<Unit filename="../communication/Serial.cpp" />
@@ -120,13 +121,12 @@
 		<Unit filename="CommandFunctions.h" />
 		<Unit filename="External.h" />
 		<Unit filename="Globals.cpp" />
-		<Unit filename="LuefterHardware.h" />
-		<Unit filename="skeleton.cpp" />
-		<Unit filename="skeleton.h" />
 		<Unit filename="ledHardware.h" />
 		<Unit filename="myTimers.cpp" />
 		<Unit filename="myTimers.h" />
 		<Unit filename="myconstants.h" />
+		<Unit filename="skeleton.cpp" />
+		<Unit filename="skeleton.h" />
 		<Unit filename="uartHardware.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
